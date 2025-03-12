@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Cumpleaños Mocha</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="login-screen">
+        <h1>Bienvenida, Mocha</h1>
+        <input type="text" id="nickname" placeholder="Ingresa tu apodo">
+        <button onclick="checkNickname()">Ingresar</button>
+    </div>
+
+    <div id="card-screen" class="hidden">
+        <h1>Feliz Cumpleaños, Mocha 🎉</h1>
+        <p>Querida Mocha,</p>
+        <p>Hoy es un día muy especial porque celebras tu cumpleaños. Aunque estamos lejos, quiero que sepas que siempre estás en mis pensamientos. Gracias por ser una amiga tan increíble durante estos 4 años. ¡Espero que este día esté lleno de alegría y amor!</p>
+        <p>Con cariño, B.C.</p>
+        <button onclick="showFlowers()">¡Haz clic para tu ramo de flores!</button>
+    </div>
+
+    <div id="flowers-screen" class="hidden">
+        <h1>🌹🌸🌺 Flores para una hermosa persona 🌺🌸🌹</h1>
+        <div id="flowers"></div>
+    </div>
+
+    <script src="scrip.js"></script>
+</body>
+</html>
